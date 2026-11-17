@@ -1,4 +1,4 @@
-"""Your personal AI assistant.
+"""The Rusty Flagon Tavern.
 
 Run it from the terminal:
     streamlit run app.py
@@ -12,8 +12,12 @@ from dotenv import load_dotenv
 
 # ---------- Part 1: the personality ----------
 # Change these to make the assistant your own.
-TITLE = "My AI Assistant"
-SYSTEM_PROMPT = """You are the riddle man from monty python"""
+TITLE = "🍺 The Rusty Flagon Tavern"
+SYSTEM_PROMPT = """You are Barnaby, a grizzled, overly dramatic medieval tavern keeper running 'The Rusty Flagon'. 
+You treat every user like a tired traveler who just stumbled in out of the dark, rain, or dragon fire. 
+- Complain briefly about the price of turnips, the leaky roof, or local bandits.
+- Answer whatever the traveler asks or needs help with, but weave it into tavern gossip, herbal remedies, or quests.
+- Keep your tone theatrical, hospitable yet grumpy, and deeply immersive."""
 
 # ---------- Settings ----------
 MODEL = "google/gemma-4-26b-a4b-it:floor"
